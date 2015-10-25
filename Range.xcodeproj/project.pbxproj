@@ -12,7 +12,10 @@
 		D0438CCF1BD6BA1100DCE3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0438CCD1BD6BA1100DCE3A6 /* Main.storyboard */; };
 		D0438CD11BD6BA1100DCE3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0438CD01BD6BA1100DCE3A6 /* Assets.xcassets */; };
 		D0438CD41BD6BA1100DCE3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0438CD21BD6BA1100DCE3A6 /* LaunchScreen.storyboard */; };
-		D0438CE11BD6BA8600DCE3A6 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0438CE01BD6BA8600DCE3A6 /* Deck.swift */; settings = {ASSET_TAGS = (); }; };
+		D0438CE11BD6BA8600DCE3A6 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0438CE01BD6BA8600DCE3A6 /* Deck.swift */; };
+		D0CD3FB81BDD370C00E814BA /* randomDecider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD3FB71BDD370C00E814BA /* randomDecider.swift */; };
+		D0CD3FBC1BDD573900E814BA /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD3FBB1BDD573900E814BA /* customButton.swift */; };
+		D0CD3FBE1BDD587900E814BA /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD3FBD1BDD587900E814BA /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		D0438CD31BD6BA1100DCE3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0438CD51BD6BA1100DCE3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0438CE01BD6BA8600DCE3A6 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		D0CD3FB71BDD370C00E814BA /* randomDecider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomDecider.swift; sourceTree = "<group>"; };
+		D0CD3FBA1BDD47EC00E814BA /* scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scratchpad.playground; sourceTree = "<group>"; };
+		D0CD3FBB1BDD573900E814BA /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		D0CD3FBD1BDD587900E814BA /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 				D0438CD01BD6BA1100DCE3A6 /* Assets.xcassets */,
 				D0438CD21BD6BA1100DCE3A6 /* LaunchScreen.storyboard */,
 				D0438CD51BD6BA1100DCE3A6 /* Info.plist */,
+				D0CD3FB91BDD47CD00E814BA /* Playgrounds */,
 			);
 			path = Range;
 			sourceTree = "<group>";
@@ -81,6 +89,8 @@
 		D0438CDC1BD6BA4300DCE3A6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D0CD3FBB1BDD573900E814BA /* customButton.swift */,
+				D0CD3FBD1BDD587900E814BA /* CustomLabel.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -89,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D0438CE01BD6BA8600DCE3A6 /* Deck.swift */,
+				D0CD3FB71BDD370C00E814BA /* randomDecider.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -105,6 +116,14 @@
 			children = (
 			);
 			name = Utilites;
+			sourceTree = "<group>";
+		};
+		D0CD3FB91BDD47CD00E814BA /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD3FBA1BDD47EC00E814BA /* scratchpad.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0438CE11BD6BA8600DCE3A6 /* Deck.swift in Sources */,
+				D0CD3FBE1BDD587900E814BA /* CustomLabel.swift in Sources */,
 				D0438CCC1BD6BA1100DCE3A6 /* ViewController.swift in Sources */,
 				D0438CCA1BD6BA1100DCE3A6 /* AppDelegate.swift in Sources */,
+				D0CD3FB81BDD370C00E814BA /* randomDecider.swift in Sources */,
+				D0CD3FBC1BDD573900E814BA /* customButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +352,7 @@
 				D0438CDA1BD6BA1100DCE3A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

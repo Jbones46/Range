@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,28 +20,28 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="cqF-GT-Rqg">
                                 <rect key="frame" x="20" y="20" width="560" height="560"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-qf-OzC">
-                                        <rect key="frame" x="221.5" y="0.0" width="117.5" height="98"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-qf-OzC" customClass="CustomLabel" customModule="Range" customModuleProvider="target">
+                                        <rect key="frame" x="221" y="0.0" width="117.5" height="98"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
-                                        <color key="textColor" red="0.18040863680416108" green="0.19653770124570469" blue="0.54391509635100665" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="4mQ-di-s0r">
-                                        <rect key="frame" x="127.5" y="128" width="305" height="227"/>
+                                        <rect key="frame" x="137" y="128" width="286" height="227"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asH-Dr-oKV">
-                                                <rect key="frame" x="0.0" y="0.0" width="127.5" height="227"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asH-Dr-oKV">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="227"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="52"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwj-gg-Wpz">
-                                                <rect key="frame" x="177.5" y="0.0" width="127.5" height="227"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwj-gg-Wpz">
+                                                <rect key="frame" x="168" y="0.0" width="118" height="227"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="52"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -50,7 +50,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MHb-Ys-XKO">
                                         <rect key="frame" x="150" y="385" width="260" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktz-c4-GI4">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktz-c4-GI4" customClass="customButton" customModule="Range" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -65,7 +65,7 @@
                                                     <action selector="answerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fLX-TY-Zp3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oI9-Mb-hth">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oI9-Mb-hth" customClass="customButton" customModule="Range" customModuleProvider="target">
                                                 <rect key="frame" x="70" y="0.0" width="50" height="50"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,7 +80,7 @@
                                                     <action selector="answerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azE-5m-8mM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-ML-MPV">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-ML-MPV" customClass="customButton" customModule="Range" customModuleProvider="target">
                                                 <rect key="frame" x="140" y="0.0" width="50" height="50"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -95,7 +95,7 @@
                                                     <action selector="answerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qoU-h3-1zn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmv-mS-rnR">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmv-mS-rnR" customClass="customButton" customModule="Range" customModuleProvider="target">
                                                 <rect key="frame" x="210" y="0.0" width="50" height="50"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.30196078430000001" green="0.71372549019999998" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -113,8 +113,8 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1am-Rh-GIq">
-                                        <rect key="frame" x="232.5" y="465" width="95" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1am-Rh-GIq" customClass="customButton" customModule="Range" customModuleProvider="target">
+                                        <rect key="frame" x="232" y="465" width="95" height="30"/>
                                         <animations/>
                                         <color key="backgroundColor" red="0.1176470588" green="0.53333333329999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -129,8 +129,8 @@
                                             <action selector="imgTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CkW-hM-HoR"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pr-ac-1jZ">
-                                        <rect key="frame" x="133.5" y="525" width="293" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pr-ac-1jZ" customClass="CustomLabel" customModule="Range" customModuleProvider="target">
+                                        <rect key="frame" x="133" y="525" width="293" height="35"/>
                                         <animations/>
                                         <color key="backgroundColor" red="0.87843137250000003" green="0.94901960780000005" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -138,34 +138,65 @@
                                             <constraint firstAttribute="height" constant="35" id="cL2-mh-F4H"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <animations/>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lP-fs-J6i">
+                                <rect key="frame" x="76" y="23" width="42" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="1bP-8O-QuW"/>
+                                    <constraint firstAttribute="height" constant="21" id="dXy-mc-a4f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="coins:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2j-rM-NXJ">
-                                <rect key="frame" x="28" y="30" width="53" height="27"/>
+                                <rect key="frame" x="20" y="20" width="53" height="27"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="1ad-eL-Iiv"/>
+                                    <constraint firstAttribute="height" constant="27" id="6Df-eh-u4Q"/>
+                                    <constraint firstAttribute="width" constant="53" id="EOQ-M6-cjO"/>
                                     <constraint firstAttribute="width" constant="53" id="IMM-js-Asd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.97063758389261745" green="0.73450608221476499" blue="0.10289953859060399" alpha="0.69496228448275865" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1ad-eL-Iiv"/>
+                                        <exclude reference="IMM-js-Asd"/>
+                                    </mask>
+                                </variation>
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.47450980392156861" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="3lP-fs-J6i" firstAttribute="centerY" secondItem="o2j-rM-NXJ" secondAttribute="centerY" id="4xb-rf-WMW"/>
+                            <constraint firstItem="o2j-rM-NXJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="69d-tO-x5B"/>
+                            <constraint firstItem="3lP-fs-J6i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="24" id="6Qt-N5-vP1"/>
                             <constraint firstItem="cqF-GT-Rqg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6YJ-c4-RfI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cqF-GT-Rqg" secondAttribute="trailing" id="9Mn-5k-z3U"/>
+                            <constraint firstItem="3lP-fs-J6i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="56" id="DPm-ei-vsY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cqF-GT-Rqg" secondAttribute="bottom" constant="20" id="E2M-fP-XJv"/>
+                            <constraint firstItem="o2j-rM-NXJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dO9-eQ-WpC"/>
                             <constraint firstItem="o2j-rM-NXJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="jVi-NH-PV5"/>
                             <constraint firstItem="cqF-GT-Rqg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ke1-aa-Ay2"/>
                             <constraint firstItem="o2j-rM-NXJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="v21-qJ-4Ao"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="jVi-NH-PV5"/>
+                                <exclude reference="v21-qJ-4Ao"/>
+                                <exclude reference="6Qt-N5-vP1"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="btnLbl1" destination="oI9-Mb-hth" id="7i7-78-0YV"/>
@@ -174,13 +205,15 @@
                         <outlet property="btnLbl4" destination="Ktz-c4-GI4" id="L10-eG-fFq"/>
                         <outlet property="cardImg" destination="asH-Dr-oKV" id="oDv-Ak-JW8"/>
                         <outlet property="cardImg2" destination="mwj-gg-Wpz" id="qAU-9C-fGo"/>
+                        <outlet property="coinsLbl" destination="3lP-fs-J6i" id="XNG-On-zSr"/>
                         <outlet property="counterLbl" destination="QhJ-qf-OzC" id="5lZ-of-QaN"/>
+                        <outlet property="playBtnLbl" destination="1am-Rh-GIq" id="qFD-oD-N14"/>
                         <outlet property="resultLbl" destination="2pr-ac-1jZ" id="3wF-78-lVH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="205" y="256"/>
+            <point key="canvasLocation" x="30" y="275"/>
         </scene>
     </scenes>
 </document>
