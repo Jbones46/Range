@@ -16,6 +16,12 @@ var answer = ""
     var count = 5
     var time = NSTimer()
     var randomArr: [String] = []
+    var strikes = 0
+    @IBOutlet weak var heart1: UIImageView!
+    @IBOutlet weak var heart2: UIImageView!
+    @IBOutlet weak var heart3: UIImageView!
+    @IBOutlet weak var heart4: UIImageView!
+    @IBOutlet weak var heart5: UIImageView!
     
     @IBOutlet weak var btnLbl4: UIButton!
     @IBOutlet weak var counterLbl: UILabel!
@@ -37,8 +43,7 @@ var answer = ""
      time = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "countDown", userInfo: nil, repeats: true)
         
         
-        
-    
+       
     }
     func countDown() {
         count -= 1
@@ -191,6 +196,33 @@ var answer = ""
             coins = coins - bet
             playBtnLbl.userInteractionEnabled = true
             coinsLbl.text = String(coins)
+            strikes += 1
+            
+            switch strikes {
+            case 1:
+                heart1.image = UIImage(named: "partialHeart")
+            case 2:
+                heart1.image = UIImage(named: "emptyHeart")
+            case 3:
+                heart2.image = UIImage(named: "partialHeart")
+            case 4:
+                heart2.image = UIImage(named: "emptyHeart")
+            case 5:
+                heart3.image = UIImage(named: "partialHeart")
+            case 6:
+                heart3.image = UIImage(named: "emptyHeart")
+            case 7:
+                heart4.image = UIImage(named: "partialHeart")
+            case 8:
+                heart4.image = UIImage(named: "emptyHeart")
+            case 9:
+                heart5.image = UIImage(named: "partialHeart")
+            case 10:
+                heart5.image = UIImage(named: "emptyHeart")
+            default:
+                break
+            }
+            
 
         }
     }
